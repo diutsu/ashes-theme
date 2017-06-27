@@ -7,9 +7,9 @@
         <version>2.1.0</version>
     </parent>
 
-    <artifactId>ashes-theme</artifactId>
+    <artifactId>ashes-dev</artifactId>
     <packaging>jar</packaging>
-    <version>1.2.0-SNAPSHOT</version>
+    <version>1.3.0-SNAPSHOT</version>
 
     <name>FenixEdu Ashes Theme</name>
     <url>http://fenixedu.org</url>
@@ -42,8 +42,8 @@
                 <artifactId>lesscss-maven-plugin</artifactId>
                 <version>1.7.0.1.1</version>
                 <configuration>
-                    <sourceDirectory>${project.basedir}/src/main/less/themes/ashes/less</sourceDirectory>
-                    <outputDirectory>${project.build.directory}/classes/META-INF/resources/themes/ashes/css</outputDirectory>
+                    <sourceDirectory>${project.basedir}/src/main/less/themes/ashes-dev/less</sourceDirectory>
+                    <outputDirectory>${project.build.directory}/classes/META-INF/resources/themes/ashes-dev/css</outputDirectory>
                     <compress>true</compress>
                     <includes>
                         <include>style.less</include>
